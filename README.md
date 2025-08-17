@@ -25,7 +25,7 @@ Example weekly route:
 - Visit http://localhost:3000/week-1
 
 ## Contributing
-This repository is for coursework. External contributions are required
+This repository is for coursework. Contributions are not required
 
 ## Credits
 Course: SAIT CPRG 306
