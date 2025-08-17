@@ -13,8 +13,8 @@ export default function Home() {
           priority
         />
         <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
+          <li className="mb-2 tracking-[-.01em] text-2xl sm:text-4xl font-bold">
+            <strong>Week 1:</strong> Get started by editing{" "}
             <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
               app/page.js
             </code>
@@ -24,6 +24,9 @@ export default function Home() {
             Save and see your changes instantly.
           </li>
         </ol>
+
+        {/* New line under the list */}
+        <p className="text-green-600 text-sm sm:text-base">setup complete</p>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
